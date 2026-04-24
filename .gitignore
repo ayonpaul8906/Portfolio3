@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Next.js build files
+.next/
+out/
+
+# Environment variables
+.env*
+
+# Logs
+*.log
+
+# OS files (Windows)
+Thumbs.db
+
+# OS files (Mac - optional but safe)
+.DS_Store
+
+# IDE (VS Code)
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
