@@ -10,7 +10,7 @@ const CERTS = [
     type: "Hackathon",
     year: "2025",
     icon: <Zap size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1gREjVO59PbaJFAg8ZHG8ns87wt-FIbBB/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
   {
@@ -18,7 +18,7 @@ const CERTS = [
     type: "National Hackathon",
     year: "2025",
     icon: <Trophy size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1N2bP_7GcXzHlmNZAFvCbKElFZAg6H2f6/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
   {
@@ -26,7 +26,7 @@ const CERTS = [
     type: "Open Source",
     year: "2025",
     icon: <Star size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1jhIAUs0ruMpkffxWCuEhNItZSy3bFtf7/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
   {
@@ -34,7 +34,7 @@ const CERTS = [
     type: "Google Challenge",
     year: "2025",
     icon: <Trophy size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/13OGv9Zch2LHmLQxpiI1BGSxHPDjB0sDd/view?usp=sharing",
     colSpan: "lg:col-span-6",
   },
   {
@@ -42,7 +42,7 @@ const CERTS = [
     type: "Open Source",
     year: "2026",
     icon: <Award size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1T3BYTdV8_EcHSXENPXrZDF0aZnykL-1Q/view?usp=sharing",
     colSpan: "lg:col-span-6",
   },
   {
@@ -50,7 +50,7 @@ const CERTS = [
     type: "Hackathon",
     year: "2024",
     icon: <Zap size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1lPxTiqE4ypoKbMuU5rvmTSpNk9CTUSKC/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
   {
@@ -58,7 +58,7 @@ const CERTS = [
     type: "Hackathon",
     year: "2026",
     icon: <Medal size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/17WKYQzHY4jSF_sRzoZyaDJw1qkrHFT3E/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
   {
@@ -66,7 +66,7 @@ const CERTS = [
     type: "Open Source",
     year: "2023",
     icon: <Star size={24} strokeWidth={1.5} />,
-    link: "https://drive.google.com/drive/folders/placeholder",
+    link: "https://drive.google.com/file/d/1rbwSA3SYeD7dJSF7cfbebOYeUMGuF7vR/view?usp=sharing",
     colSpan: "lg:col-span-4",
   },
 ];

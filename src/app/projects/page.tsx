@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Shield, Activity, Brain, Globe, Lock, Server, ArrowUpRight } from "lucide-react";
+import { Shield, Activity, Brain, Globe, Lock, Server, ArrowUpRight,Compass,BookOpen,Sparkles } from "lucide-react";
 import SectionContainer from "@/components/ui/section-container";
 import Footer from "@/components/footer";
 
@@ -12,12 +12,12 @@ const ALL_PROJECTS = [
     tagline: "Real-time API key leak detection system",
     desc: "Monitors public repositories, Pastebin, and code snippets in real time to detect exposed API keys and credentials before they get exploited. Instant alerts, dashboard, and zero-config setup for teams.",
     icon: <Shield size={24} strokeWidth={1.5} />,
-    tech: ["Python", "Flask", "GROQ API"],
+    tech: ["Python", "Flask", "Gemini  API"],
     github: "https://github.com/ayonpaul8906/WrathOps",
     demo: "https://wrathops.vercel.app/",
     category: "Security",
-    status: "Live",
-    image: "/wrathops.png",
+    status: "In Progress",
+    image: "/projects/wrathops.png",
   },
   {
     id: "trustbridge",
@@ -30,7 +30,7 @@ const ALL_PROJECTS = [
     demo: "https://trust-bridge-drab.vercel.app/",
     category: "Web3",
     status: "Live",
-    image: "/trustbridge.png",
+    image: "/projects/trustbridge.png",
   },
   {
     id: "tark",
@@ -39,51 +39,64 @@ const ALL_PROJECTS = [
     desc: "An intelligent assistant that combines LLM reasoning with structured knowledge retrieval. Context-aware, multi-turn, and architecturally lean — designed for speed and precision.",
     icon: <Brain size={24} strokeWidth={1.5} />,
     tech: ["GROQ", "Gemini", "Python"],
-    github: "https://github.com/ayonpaul8906",
+    github: "https://github.com/ayonpaul8906/TARK",
     demo: "#",
     category: "AI",
-    status: "Live",
-    image: "/tark.png",
+    status: "In Progress",
+    image: "/projects/tark.png",
   },
   {
-    id: "devconnect",
-    title: "DevConnect",
+    id: "SkillBite",
+    title: "SkillBite",
     tagline: "Developer networking & collaboration hub",
     desc: "A platform for developers to find collaborators, share projects, and build together. Real-time matching, skill tagging, and integrated GitHub activity.",
     icon: <Globe size={24} strokeWidth={1.5} />,
     tech: ["React.js", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/ayonpaul8906",
-    demo: "#",
+    github: "https://github.com/ayonpaul8906/SkillBite",
+    demo: "https://skillbite.vercel.app/",
     category: "Social",
-    status: "In Progress",
-    image: null,
+    status: "Live",
+    image: "/projects/skillbite.png",
   },
   {
-    id: "vaultkey",
-    title: "VaultKey",
-    tagline: "Encrypted credential manager",
-    desc: "A client-side encrypted password and secret manager. Zero-knowledge architecture — your secrets never leave your device unencrypted.",
-    icon: <Lock size={24} strokeWidth={1.5} />,
-    tech: ["React.js", "Python", "Cryptography"],
-    github: "https://github.com/ayonpaul8906",
-    demo: "#",
-    category: "Security",
-    status: "Shipped",
-    image: null,
+    id: "careercompass",
+    title: "Career Compass",
+    tagline: "Guided career exploration platform",
+    desc: "A career guidance platform that helps users explore suitable career paths based on interests, skills, and goals. Provides structured insights and interactive navigation for better decision-making.",
+    icon: <Compass size={24} strokeWidth={1.5} />,
+    tech: ["React", "JavaScript", "CSS"],
+    github: "https://github.com/ayonpaul8906/Career-Compass-GDG",
+    demo: "https://career-compass-4a13f.web.app",
+    category: "Career",
+    status: "Live",
+    image: "/projects/careercompass.png",
   },
   {
-    id: "apidash",
-    title: "APIDash",
-    tagline: "Lightweight API testing dashboard",
-    desc: "A clean, fast API testing tool built in React. Supports all HTTP methods, custom headers, JSON body, and response visualization — no bloat.",
-    icon: <Server size={24} strokeWidth={1.5} />,
-    tech: ["React.js", "Axios", "Vite"],
-    github: "https://github.com/ayonpaul8906",
+    id: "edunexa",
+    title: "Edunexa",
+    tagline: "Smart education & learning platform",
+    desc: "A modern learning platform designed to deliver structured educational content with an intuitive UI. Supports scalable content delivery, user engagement tracking, and responsive design for seamless learning across devices.",
+    icon: <BookOpen size={24} strokeWidth={1.5} />,
+    tech: ["React", "TailwindCSS", "JavaScript"],
+    github: "https://github.com/ayonpaul8906/EduNexa",
     demo: "#",
-    category: "Dev Tool",
-    status: "Shipped",
-    image: null,
+    category: "EdTech",
+    status: "Live",
+    image: "/projects/edunexa.png",
   },
+  {
+    id: "zencue",
+    title: "ZenCue",
+    tagline: "AI-powered assistive learning for neurodivergent users",
+    desc: "A neurodivergent-friendly productivity and learning assistant that simplifies complex content using AI. Supports text, image, and screen-based inputs with real-time explanations, voice output, and distraction-free UI to improve focus and comprehension.",
+    icon: <Sparkles size={24} strokeWidth={1.5} />,
+    tech: ["React.js", "Flask", "Tailwind CSS", "Gemini API", "html2canvas"],
+    github: "https://github.com/ayonpaul8906/ZenCue",
+    demo: "https://zen-cue.vercel.app/",
+    category: "AI",
+    status: "Live",
+    image: "/projects/zencue.png",
+  }
 ];
 
 export default function ProjectsPage() {
@@ -129,7 +142,7 @@ export default function ProjectsPage() {
               >
                 {/* Massive Image Container */}
                 <div 
-                  className="relative w-full aspect-[4/3] overflow-hidden rounded-2xl sm:rounded-[2rem] mb-8 transition-all duration-700"
+                  className="relative w-full aspect-[1/1] md:aspect-[13/6] overflow-hidden rounded-xl md:rounded-[2rem] mb-6 md:mb-8 transition-all duration-700 bg-center"
                   style={{ 
                     background: "var(--surface)", 
                     boxShadow: "inset 0 0 0 1px var(--border)",

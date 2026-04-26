@@ -9,7 +9,7 @@
   --transition-theme: background-color 0.5s cubic-bezier(0.4,0,0.2,1), color 0.5s cubic-bezier(0.4,0,0.2,1), border-color 0.5s cubic-bezier(0.4,0,0.2,1), box-shadow 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 
-/* ─── IRON MAN (Light) ─── warm whites, reds, golds, oranges */
+/* ─── Light ─── warm whites, reds, golds, oranges */
 [data-theme="iron"] {
   --bg: #faf8f5;
   --bg-deep: #f5f0ea;
@@ -42,7 +42,7 @@
   --particle-color: #c0392b;
 }
 
-/* ─── BATMAN (Dark) ─── premium blacks, greys, white glows */
+/* ─── Dark ─── premium blacks, greys, white glows */
 [data-theme="batman"] {
   --bg: #0a0a0a;
   --bg-deep: #050505;

@@ -14,7 +14,7 @@ const PROJECTS = [
     desc: "Real-time enterprise monitoring engine for detecting exposed API keys in public repositories. High-throughput architecture for immediate remediation.",
     tech: "Python · Flask · GROQ API",
     link: "https://wrathops.vercel.app/",
-    image: "/wrathops.png",
+    image: "/projects/wrathops.png",
   },
   {
     id: "trustbridge",
@@ -23,7 +23,7 @@ const PROJECTS = [
     desc: "Transparent, trust-scored decentralized interactions. Architected on secure smart contracts with wallet-native authentication.",
     tech: "Ethers.js · React · Solidity",
     link: "https://trust-bridge-drab.vercel.app/",
-    image: "/trustbridge.png",
+    image: "/projects/trustbridge.png",
   },
   {
     id: "tark",
@@ -32,7 +32,7 @@ const PROJECTS = [
     desc: "Intelligent autonomous assistant merging large language model reasoning with structured, rapid knowledge retrieval.",
     tech: "GROQ · Gemini · Python",
     link: "#",
-    image: "/tark.png",
+    image: "/projects/tark.png",
   },
 ];
 
